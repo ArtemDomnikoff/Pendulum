@@ -7,7 +7,7 @@ def angle_speed(w_speed, l, h, ang, g=9.8):
     return w_speed - (g / l) * h * np.sin(ang)
 
 
-def angle(ang, h, w_speed):
+def get_angle(ang, h, w_speed):
     return ang + h * w_speed
 
 
