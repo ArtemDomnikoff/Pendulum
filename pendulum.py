@@ -29,4 +29,4 @@ line, = plt.plot(x, y)
 '''animation = FuncAnimation(fig, func=animate, frames=60,  fargs=(line, x), interval=30, blit=True, repeat=True)'''
 ax.grid()
 plt.show()
-'''animation.save('pendulum.gif', writer='imagemagick')'''
+'''animation'''
