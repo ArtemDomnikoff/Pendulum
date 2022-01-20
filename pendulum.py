@@ -18,7 +18,7 @@ def animate(i,line,x,y):
     # i - это и есть Фреймс
     angle = get_angle(i, h, angle_speed(w_speed, l, h, i))
     x = np.cos(angle) * l
-    y = np.sin(angle) * l
+    y = -abs(np.sin(angle) * l)
     line.set_data([0,x],[0,y])
     return line,
 
